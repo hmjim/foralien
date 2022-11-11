@@ -1,0 +1,38 @@
+/*!**********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./assets/src/sass/editor.scss ***!
+  \**********************************************************************************************************************/
+.people_container {
+  max-width: 1280px !important;
+  width: 100%;
+  display: block;
+  position: relative; }
+  .people_container h3 {
+    text-transform: uppercase;
+    text-align: center; }
+  .people_container ul {
+    list-style-type: none;
+    text-align: center; }
+    .people_container ul li {
+      display: inline-flex;
+      width: 19%;
+      vertical-align: top;
+      margin: 15px auto; }
+      @media screen and (max-width: 768px) {
+        .people_container ul li {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          vertical-align: top;
+          margin: 35px auto; } }
+      .people_container ul li a {
+        text-decoration: none; }
+        .people_container ul li a img {
+          width: 200px;
+          height: 190px;
+          border-radius: 50%; }
+        .people_container ul li a b, .people_container ul li a i {
+          display: flex;
+          justify-content: center; }
+
+
+/*# sourceMappingURL=editor.css.map*/

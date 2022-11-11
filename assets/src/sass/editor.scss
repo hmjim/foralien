@@ -1,0 +1,46 @@
+// Styles to be added.
+.people_container {
+  max-width: 1280px !important;
+  width: 100%;
+  display: block;
+  position: relative;
+
+  h3 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+
+    li {
+      display: inline-flex;
+      width: 19%;
+      vertical-align: top;
+      margin: 15px auto;
+      @media screen and (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        vertical-align: top;
+        margin: 35px auto;
+      }
+
+      a {
+        text-decoration: none;
+
+        img {
+          width: 200px;
+          height: 190px;
+          border-radius: 50%;
+        }
+
+        b, i {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
